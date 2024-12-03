@@ -58,10 +58,7 @@ function App() {
           </ul>
         </div>
       </header>
-      <Routes>
-        <Route path="/about-us" element={<AboutUs />} />
-        {/* Add other routes here */}
-      </Routes>
+      <AboutUs/>
     </Router>
   );
 }
